@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: linear-gradient(to top right,white,#96C9F4,#0F67B1,#615EFC);
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: white;
+    font-family: cursive, Geneva, Tahoma, sans-serif
+}
+.list{
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    text-align: center;
+    padding:10px;
+    margin: 20px;
+}
+h1{
+    text-transform: capitalize;
+}
+h1:hover{
+    transform: scale(1.2);
+}
+input{
+    width: 500px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+} 
+input:focus{
+    transform: scale(1.1);
+}
+#btn{
+    background-color: #5A72A0;
+    width: 200px;
+    padding: 10px;
+    margin: 20px;
+    border-radius:20px ;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#btn:hover{
+    transform: scale(1.1);
+}
+.tasks{
+    margin-top: 50px;
+}
+.task{
+    display: flex;
+    width: 520px;
+    justify-content: space-between;
+    margin-top:20px ;
+    padding: 8px;
+    background-color: #A67B5B;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.taskbtn,#del{
+border: none;
+background-color: #A67B5B;
+color: white;
+font-weight: bold;
+cursor: pointer;
+font-size: 18px;
+padding: 5px;
+}
+#del:hover{
+    background-color: red; 
+    border-radius: 50% ;
+    text-decoration-line: none;
+}
+.taskbtn:hover{
+    transform: scale(1.1);
+}
